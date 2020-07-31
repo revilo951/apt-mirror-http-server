@@ -1,5 +1,5 @@
-FROM ubuntu:16.04
-MAINTAINER Terry Chen <seterrychen@gmail.com>
+FROM debian:stretch-slim
+LABEL maintainer="Robin Lennox"
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV RESYNC_PERIOD 12h
