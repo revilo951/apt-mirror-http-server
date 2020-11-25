@@ -1,4 +1,4 @@
-FROM debian:stretch-slim
+FROM ubuntu:20.04
 LABEL maintainer="Robin Lennox"
 
 ENV DEBIAN_FRONTEND noninteractive
